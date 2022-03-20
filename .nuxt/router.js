@@ -4,15 +4,16 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _ac7bb084 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
-const _7e37fb18 = () => interopDefault(import('..\\pages\\chatroom\\index.vue' /* webpackChunkName: "pages/chatroom/index" */))
-const _4351c70f = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages/inspire" */))
-const _277cf138 = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
-const _a5749974 = () => interopDefault(import('..\\pages\\message\\index.vue' /* webpackChunkName: "pages/message/index" */))
-const _ff6228a2 = () => interopDefault(import('..\\pages\\signup\\index.vue' /* webpackChunkName: "pages/signup/index" */))
-const _5eb811dc = () => interopDefault(import('..\\pages\\chatroom\\_id.vue' /* webpackChunkName: "pages/chatroom/_id" */))
-const _19d861a4 = () => interopDefault(import('..\\pages\\message\\_id.vue' /* webpackChunkName: "pages/message/_id" */))
-const _0d85c447 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _12688ae2 = () => interopDefault(import('..\\pages\\about\\index.vue' /* webpackChunkName: "pages/about/index" */))
+const _eb0e64e6 = () => interopDefault(import('..\\pages\\admin\\index.vue' /* webpackChunkName: "pages/admin/index" */))
+const _30655376 = () => interopDefault(import('..\\pages\\chatroom\\index.vue' /* webpackChunkName: "pages/chatroom/index" */))
+const _1e507be0 = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages/inspire" */))
+const _660fa59a = () => interopDefault(import('..\\pages\\login\\index.vue' /* webpackChunkName: "pages/login/index" */))
+const _3aea2155 = () => interopDefault(import('..\\pages\\message\\index.vue' /* webpackChunkName: "pages/message/index" */))
+const _93260080 = () => interopDefault(import('..\\pages\\signup\\index.vue' /* webpackChunkName: "pages/signup/index" */))
+const _d653b426 = () => interopDefault(import('..\\pages\\chatroom\\_id.vue' /* webpackChunkName: "pages/chatroom/_id" */))
+const _586b1606 = () => interopDefault(import('..\\pages\\message\\_id.vue' /* webpackChunkName: "pages/message/_id" */))
+const _0f9d7958 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,40 +27,44 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/about",
+    component: _12688ae2,
+    name: "about"
+  }, {
     path: "/admin",
-    component: _ac7bb084,
+    component: _eb0e64e6,
     name: "admin"
   }, {
     path: "/chatroom",
-    component: _7e37fb18,
+    component: _30655376,
     name: "chatroom"
   }, {
     path: "/inspire",
-    component: _4351c70f,
+    component: _1e507be0,
     name: "inspire"
   }, {
     path: "/login",
-    component: _277cf138,
+    component: _660fa59a,
     name: "login"
   }, {
     path: "/message",
-    component: _a5749974,
+    component: _3aea2155,
     name: "message"
   }, {
     path: "/signup",
-    component: _ff6228a2,
+    component: _93260080,
     name: "signup"
   }, {
     path: "/chatroom/:id",
-    component: _5eb811dc,
+    component: _d653b426,
     name: "chatroom-id"
   }, {
     path: "/message/:id",
-    component: _19d861a4,
+    component: _586b1606,
     name: "message-id"
   }, {
     path: "/",
-    component: _0d85c447,
+    component: _0f9d7958,
     name: "index"
   }],
 

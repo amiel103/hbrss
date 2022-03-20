@@ -13,8 +13,8 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_50f71808 from 'nuxt_plugin_plugin_50f71808' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_plugin_0a023e28 from 'nuxt_plugin_plugin_0a023e28' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_472dc487 from 'nuxt_plugin_plugin_472dc487' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_b6dec666 from 'nuxt_plugin_plugin_b6dec666' // Source: .\\vuetify\\plugin.js (mode: 'all')
 import nuxt_plugin_moralisclient_4df55ee6 from 'nuxt_plugin_moralisclient_4df55ee6' // Source: ..\\plugins\\moralis.client.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -212,12 +212,12 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_50f71808 === 'function') {
-    await nuxt_plugin_plugin_50f71808(app.context, inject)
+  if (typeof nuxt_plugin_plugin_472dc487 === 'function') {
+    await nuxt_plugin_plugin_472dc487(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_0a023e28 === 'function') {
-    await nuxt_plugin_plugin_0a023e28(app.context, inject)
+  if (typeof nuxt_plugin_plugin_b6dec666 === 'function') {
+    await nuxt_plugin_plugin_b6dec666(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_moralisclient_4df55ee6 === 'function') {
