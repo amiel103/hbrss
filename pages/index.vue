@@ -10,7 +10,11 @@
         col="12"
         lg="4"
         >
-            <v-card>
+            <v-card
+              outline
+              elevation="1"
+              height="300"
+            >
               <div class="d-flex justify-center pa-5">
                 <v-avatar size="80" color="primary">
                   <span class="white--text text-h5">CJ</span>
@@ -19,8 +23,8 @@
 
               <h3 class="text-center">{{item.get('fullname')}}</h3>
               
-              <v-card-text>
-                <div>
+              <v-card-text class="pa-5">
+                <div v-if="item.get('description') != undefined ">
                   <v-slide-group
                     multiple
                     show-arrows
@@ -33,6 +37,8 @@
                       <v-btn
                         class="mx-2"
                         :input-value="active"
+                        small
+                        style="text-transform:none;"
                         active-class="purple white--text"
                         depressed
                         rounded
@@ -43,15 +49,27 @@
                     </v-slide-item>
                   </v-slide-group>
                 </div>
+                <div class="my-1 text-center" v-else>
+                  <h1>No Expertise Set</h1>
+                </div>
               </v-card-text>
 
               <v-card-actions>
-                <v-btn>
+                <v-btn
+                depressed
+                rounded
+                style="text-transform:none;"
+                color="primary"
+                >
                   Make Appointment
                 </v-btn>
-                <v-spacer/>
                 <v-btn
-                  :to="'/message/'+item.id"
+                depressed
+                rounded
+                style="text-transform:none;"
+                :to="'/message/'+item.id"
+                dark
+                color="pink"
                 >
                   Message
                 </v-btn>

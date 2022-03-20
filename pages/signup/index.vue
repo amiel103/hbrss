@@ -1,39 +1,54 @@
 <template>
   <!-- sign up -->
-  <div>
-    <form>
-      <v-text-field
-        v-model="name"
-        label="Name"
-      ></v-text-field>
+  <v-card
+  shaped
+  class="mt-15"
+  >
+    <v-card-title>
+      Create Account
+    </v-card-title>
+    <v-card-text class="pa-15">
+       <form>
+        <v-text-field
+          filled
+          rounded
+          v-model="name"
+          label="Name"
+        ></v-text-field>
 
-      <v-text-field
-        v-model="email"
-        label="E-mail"
-      ></v-text-field>
+        <v-text-field
+          filled
+          rounded
+          v-model="email"
+          label="E-mail"
+        ></v-text-field>
 
-      <v-text-field
-        v-model="password"
-        label="password"
-      ></v-text-field>
+        <v-text-field
+          filled
+          rounded
+          v-model="password"
+          label="Password"
+        ></v-text-field>
 
-      <v-text-field
-        v-model="re_password"
-        label="confirm password"
-      ></v-text-field>
-      
-      <v-btn
-        class="mr-4"
-      >
-        submit
-      </v-btn>
+        <v-text-field
+          filled
+          rounded
+          v-model="re_password"
+          label="Confirm Password"
+        ></v-text-field>
 
-      <v-btn
-        @click="signup()">
-        sign up
-      </v-btn>
-    </form>
-  </div>
+        <v-btn
+          x-large
+          block
+          color="warning"
+          rounded
+          depressed
+          @click="signup()">
+          sign up
+        </v-btn>
+      </form>
+    </v-card-text>
+  </v-card>
 </template>
 
 <script>
