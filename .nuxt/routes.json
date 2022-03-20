@@ -1,0 +1,65 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\admin\\\\index.vue",
+    "chunkName": "pages/admin/index",
+    "_name": "_ac7bb084"
+  },
+  {
+    "name": "chatroom",
+    "path": "/chatroom",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\chatroom\\\\index.vue",
+    "chunkName": "pages/chatroom/index",
+    "_name": "_7e37fb18"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_4351c70f"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\login\\\\index.vue",
+    "chunkName": "pages/login/index",
+    "_name": "_277cf138"
+  },
+  {
+    "name": "message",
+    "path": "/message",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\message\\\\index.vue",
+    "chunkName": "pages/message/index",
+    "_name": "_a5749974"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\signup\\\\index.vue",
+    "chunkName": "pages/signup/index",
+    "_name": "_ff6228a2"
+  },
+  {
+    "name": "chatroom-id",
+    "path": "/chatroom/:id",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\chatroom\\\\_id.vue",
+    "chunkName": "pages/chatroom/_id",
+    "_name": "_5eb811dc"
+  },
+  {
+    "name": "message-id",
+    "path": "/message/:id",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\message\\\\_id.vue",
+    "chunkName": "pages/message/_id",
+    "_name": "_19d861a4"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\serious_projects\\\\hbrss\\\\hbrss\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0d85c447"
+  }
+]
