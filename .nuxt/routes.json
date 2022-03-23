@@ -3,63 +3,54 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\about\\\\index.vue",
-    "chunkName": "pages/about/index",
-    "_name": "_12688ae2"
+    "chunkName": "pages/about/index"
   },
   {
     "name": "admin",
     "path": "/admin",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\admin\\\\index.vue",
-    "chunkName": "pages/admin/index",
-    "_name": "_eb0e64e6"
+    "chunkName": "pages/admin/index"
   },
   {
     "name": "chatroom",
     "path": "/chatroom",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\chatroom\\\\index.vue",
-    "chunkName": "pages/chatroom/index",
-    "_name": "_30655376"
+    "chunkName": "pages/chatroom/index"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\login\\\\index.vue",
-    "chunkName": "pages/login/index",
-    "_name": "_660fa59a"
+    "chunkName": "pages/login/index"
   },
   {
     "name": "message",
     "path": "/message",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\message\\\\index.vue",
-    "chunkName": "pages/message/index",
-    "_name": "_3aea2155"
+    "chunkName": "pages/message/index"
   },
   {
     "name": "signup",
     "path": "/signup",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\signup\\\\index.vue",
-    "chunkName": "pages/signup/index",
-    "_name": "_93260080"
+    "chunkName": "pages/signup/index"
   },
   {
     "name": "chatroom-id",
     "path": "/chatroom/:id",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\chatroom\\\\_id.vue",
-    "chunkName": "pages/chatroom/_id",
-    "_name": "_d653b426"
+    "chunkName": "pages/chatroom/_id"
   },
   {
     "name": "message-id",
     "path": "/message/:id",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\message\\\\_id.vue",
-    "chunkName": "pages/message/_id",
-    "_name": "_586b1606"
+    "chunkName": "pages/message/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\arjna\\\\projects\\\\1\\\\hbrss\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_0f9d7958"
+    "chunkName": "pages/index"
   }
 ]

@@ -20,7 +20,7 @@
             <v-card>
               <div class="d-flex justify-center pa-5">
                 <v-avatar size="80" color="primary">
-                  <span class="white--text text-h5">CJ</span>
+                  <span class="white--text text-h5">{{item.get('fullname')[0]}}</span>
                 </v-avatar>
               </div>
 
