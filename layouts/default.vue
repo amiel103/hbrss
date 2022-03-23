@@ -25,20 +25,14 @@
 
 
       <div v-if="user.length != 0">
+
         <v-btn
-         to="/about"
+          icon
+          to="/about"
         >
           <v-icon>
             
             mdi-information
-          </v-icon>
-        </v-btn>
-
-        <v-btn
-        icon
-        >
-          <v-icon>
-            mdi-message-text-outline
           </v-icon>
         </v-btn>
 
@@ -56,9 +50,6 @@
             </v-btn>
           </template>
           <v-list>
-            <v-list-item to="/profile">
-              <v-list-item-title>Profile</v-list-item-title>
-            </v-list-item>
             <v-list-item @click="logout()">
               <v-list-item-title>Logout</v-list-item-title>
             </v-list-item>

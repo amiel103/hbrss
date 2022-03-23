@@ -9,7 +9,7 @@
             class="d-flex justify-center ma-3"
             color="primary"
             size="105">  
-            <v-img :src="require('@/assets/erika.jpg')">
+            <v-img :src="require('@/assets/erika.png')">
             
             </v-img>
 
@@ -17,12 +17,6 @@
           </v-avatar>
         </div>
 
-        
-
-            
-
-        
-        
 
         <h4>
         Hi my name is Erika M. Segador
@@ -42,7 +36,10 @@
           <v-avatar
             class="d-flex justify-center ma-3"
             color="primary"
-            size="105">        
+            size="105">
+            <v-img :src="require('@/assets/john.png')">
+            
+            </v-img>        
           </v-avatar>
         </div>
         <h4>
@@ -60,7 +57,10 @@
           <v-avatar
             class="d-flex justify-center ma-3"
             color="primary"
-            size="105">        
+            size="105">
+            <v-img :src="require('@/assets/jaylord.png')">
+            
+            </v-img>        
           </v-avatar>
         </div>
         <h4>
@@ -78,7 +78,10 @@
           <v-avatar
             class="d-flex justify-center ma-3"
             color="primary"
-            size="105">        
+            size="105">   
+            <v-img :src="require('@/assets/jemuel.png')">
+            
+            </v-img>     
           </v-avatar>
         </div>
         <h4>
