@@ -8,19 +8,29 @@
       flat
       color="#272727"
     >
+
+      <v-toolbar-title>
+
+      <v-btn
+        to="/"
+        text>
+        {{title}}
+      </v-btn>
+      </v-toolbar-title>
+
+        <v-spacer />
+     
       
-      <v-toolbar-title v-text="title" />
-      
-      <v-spacer />
 
 
 
       <div v-if="user.length != 0">
         <v-btn
-        icon
+         to="/about"
         >
           <v-icon>
-            mdi-bell-outline
+            
+            mdi-information
           </v-icon>
         </v-btn>
 

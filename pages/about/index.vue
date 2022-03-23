@@ -9,6 +9,9 @@
             class="d-flex justify-center ma-3"
             color="primary"
             size="105">  
+            <v-img :src="require('@/assets/erika.jpg')">
+            
+            </v-img>
 
                  
           </v-avatar>
@@ -16,9 +19,7 @@
 
         
 
-            <v-img src="./assets/erika.jpg">
-
-            </v-img>
+            
 
         
         

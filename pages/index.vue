@@ -238,6 +238,11 @@ export default {
 
       let Appointments;
       let workers;
+
+      if( this.user_type == "admin" ){
+        this.$router.push('/admin')
+      }
+
       if(this.user_type == "user"){
         workers = await Moralis.Cloud.run("get_workers");
         Appointments = await Moralis.Cloud.run("get_user_appointment");
@@ -295,6 +300,8 @@ export default {
         new_appoint.set('client',Moralis.User.current());
         new_appoint.set('approved',false);
         await new_appoint.save()
+        alert("appointment added check my appointments table")
+        this.$router.go()
 
       } catch (err) {
         alert(err.message);

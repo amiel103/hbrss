@@ -82,12 +82,15 @@ export default {
       user.set("username", this.name);
       user.set("password", this.password);
       user.set("email", this.email);
+      user.set("role", 'user');
 
       // other fields can be set just like with Moralis.Object
       
       try {
         await user.signUp();
         // Hooray! Let them use the app now.
+        alert("user created")
+        this.$router.push('/');
       } catch (error) {
         // Show the error message somewhere and let the user try again.
         alert("Error: " + error.code + " " + error.message);
